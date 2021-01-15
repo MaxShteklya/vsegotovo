@@ -1,0 +1,98 @@
+body{
+   background: url("/public/img/bg.png");
+   background-color: #fff;
+}
+.cart_list{
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-bottom: 15px;
+   border-bottom: 2px solid #ccc;
+}
+.error{
+   margin: 30px auto;
+}
+.order_details{
+   display: none;
+}
+.checout_prices{
+   width: 100%;
+}
+.prices th{
+   background-color: #eaeaea;
+}
+.prices td{
+   text-align: right;
+}
+.prices tr:last-child{
+   height: 80px;
+}
+.prices tr:last-child th,
+.prices tr:last-child td{
+   vertical-align: bottom;
+}
+.prices span{
+   font-weight: 700;
+}
+.form-group{
+   position: relative;
+}
+.required{
+   position: absolute;
+   top: -7px;
+   right: 3px;
+   font-size: 32px;
+   color: red;
+   z-index: 3;
+}
+.required-sm{
+   right: 6px;
+}
+.btn-orange{
+   cursor: pointer;
+   transition: 0.2s;
+   text-align: center;
+   display: block;
+   padding: 7px 12px;
+   border: 2px solid #fe6400;
+   background-color: #fe6400;
+   color: #fff;
+   font-weight: 700;
+   font-size: 16px;
+   border-radius: 10px;
+   margin-left: auto;
+   outline: none;
+}
+.btn-orange:hover{
+   background-color: transparent;
+   color: #fe6400;
+   text-decoration: none;
+}
+.wrong_field{
+   transition: background-color .2s ease-in-out;
+   -moz-transition: background-color .2s ease-in-out;
+   -webkit-transition: background-color .2s ease-in-out;
+   -o-transition: background-color .2s ease-in-out;
+}
+.min_delivery_error{
+	color: red;
+}
+.sale {
+	position:relative;
+	display:inline-block;
+	padding: 3px;
+}
+.sale:after{
+	content:"";
+	display:block;
+	position:absolute;
+	left:0;top:50%;
+	color:red;
+	width:100%;
+	height:0;
+	border-bottom:2px solid red;
+	transform:rotate(-10deg);
+}
+#saled{
+	font-size: 22px;
+	color: #000;
+}

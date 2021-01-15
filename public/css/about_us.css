@@ -1,0 +1,29 @@
+body{
+   background: url("/public/img/bg.png");
+   background-color: #fff;
+}
+.icon{
+	margin: 20px 0;
+	width: 96px;
+}
+
+.our_pluses .col-12{
+	text-align: center;
+	border-bottom: 3px solid transparent;
+}
+
+.our_pluses .col-12:hover{
+	transition: .8s;
+	border-bottom: 3px solid #fe6400;
+}
+
+.our_pluses .col-12:hover .icon{
+	will-change: transform;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	transition: .8s;
+	transform: rotate(360deg);
+}
+.burger_icon{
+	width: 200px;
+}

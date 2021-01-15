@@ -1,0 +1,54 @@
+body{
+   background: url("/public/img/bg.png");
+   background-color: #fff;
+}
+/*.contact{
+	margin-top: 15px;
+	text-align: center;
+}
+.contact p{
+	color: #000;
+	font-size: 18px;
+}
+.contact a{
+	margin: 0 50px;
+	border-bottom: 3px solid #000;
+	padding-bottom: 5px;
+	font-size: 18px;
+	color: #000;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.contact i{
+	margin-bottom: 15px;
+	font-size: 48px;
+	color: #fe6400;
+}*/
+
+.card{
+	border-width: 0px;
+	border-style: solid;
+	padding: 10px;
+	color: #000;
+
+}
+.red{
+	background-color: rgb(189,109,97);
+	border-color: #a31005;
+}
+.yellow{
+	background-color: rgb(240,234,164);
+	border-color: #da8d00;
+}
+.green{
+	background-color: rgb(168,211,190);
+	border-color: #1b5836;
+}
+.blue{
+	background-color: rgb(172,174,202);
+	border-color: #3f51b5;
+}
+.dark-green{
+	background-color: rgb(93, 157, 125);
+	border-color: #1b5836;
+}

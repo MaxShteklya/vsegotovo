@@ -1,0 +1,54 @@
+body{
+    background: url("/public/img/bg.png");
+    background-color: #fff;
+}
+
+.promo_card {
+    height: 100%;
+    color: #444444;
+    margin: 15px 0;
+    background-color: #fff;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+.promo_card .image {
+    overflow:hidden;
+    width: 100%;
+}
+.promo_card .image img {
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    -webkit-transition: all .5s ease-out;
+    height: 100%;
+    width: 100%;
+}
+.promo_card:hover .image img{
+    will-change: transform;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.promo_card h3{
+    text-align: center;
+    margin: 7px 5px;
+}
+.promo_card a{
+    text-decoration: none;
+    color: #5c5959;
+}
+.promo_card:hover h3>a,
+.promo_card:hover p {
+    color: #000;
+}
+.promo_card .sm_desr{
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #615f5f;
+}

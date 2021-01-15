@@ -1,0 +1,53 @@
+body{
+   background: url("/public/img/bg.png");
+   background-color: #fff;
+}
+.cart_list{
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-bottom: 15px;
+   border-bottom: 2px solid #ccc;
+}
+.order_details{
+   display: none;
+}
+.checout_prices{
+   width: 100%;
+}
+.prices th{
+   background-color: #eaeaea;
+}
+.prices td{
+   text-align: right;
+}
+.prices tr:last-child{
+   height: 80px;
+}
+.prices tr:last-child th,
+.prices tr:last-child td{
+   vertical-align: bottom;
+}
+.prices span{
+   font-weight: 700;
+}
+
+.btn-orange{
+   cursor: pointer;
+   transition: 0.2s;
+   text-align: center;
+   display: block;
+   padding: 7px 12px;
+   border: 2px solid #fe6400;
+   background-color: #fe6400;
+   color: #fff;
+   font-weight: 700;
+   font-size: 16px;
+   border-radius: 10px;
+   margin-left: auto;
+   outline: none;
+}
+.btn-orange:hover{
+   background-color: transparent;
+   color: #fe6400;
+   text-decoration: none;
+}

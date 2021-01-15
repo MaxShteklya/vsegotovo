@@ -1,0 +1,14 @@
+body{
+    background: url("/public/img/bg.png");
+    background-color: #fff;
+}
+.box{
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    border-radius: 0.7rem;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: auto;
+}
